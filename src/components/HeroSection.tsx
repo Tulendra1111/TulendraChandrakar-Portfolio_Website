@@ -34,7 +34,11 @@ const HeroSection: React.FC = () => {
         {/* Logo/Profile Section */}
         <div className="flex justify-center mb-8">
           <div className="relative">
-            <img src="public\MyPhoto.jpg" alt="TC image" className="w-24 h-24 animate-glow" />
+            <img
+              src={MyPhoto} // using the imported variable
+              alt="TC image"
+              className="w-24 h-24 animate-glow rounded-full"
+            />
             <div className="absolute -bottom-2 -right-2 w-8 h-8 bg-green-500 rounded-full border-4 border-portfolio-dark flex items-center justify-center">
               <div className="w-2 h-2 bg-white rounded-full"></div>
             </div>
