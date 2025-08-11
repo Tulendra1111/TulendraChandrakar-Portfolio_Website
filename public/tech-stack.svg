@@ -1,0 +1,92 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="techGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="techGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a855f7;stop-opacity:1" />
+    </linearGradient>
+    <filter id="techGlow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background Grid -->
+  <rect width="400" height="300" fill="#0f0f23"/>
+  
+  <!-- Tech Stack Icons -->
+  <!-- React -->
+  <g transform="translate(50, 50)">
+    <circle cx="0" cy="0" r="25" fill="url(#techGradient1)" opacity="0.2"/>
+    <circle cx="0" cy="0" r="20" fill="url(#techGradient1)" opacity="0.4"/>
+    <text x="0" y="8" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#6366f1" filter="url(#techGlow)">⚛️</text>
+    <text x="0" y="45" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#6366f1">React</text>
+  </g>
+  
+  <!-- Node.js -->
+  <g transform="translate(150, 50)">
+    <circle cx="0" cy="0" r="25" fill="url(#techGradient2)" opacity="0.2"/>
+    <circle cx="0" cy="0" r="20" fill="url(#techGradient2)" opacity="0.4"/>
+    <text x="0" y="8" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#8b5cf6" filter="url(#techGlow)">🟢</text>
+    <text x="0" y="45" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#8b5cf6">Node.js</text>
+  </g>
+  
+  <!-- MongoDB -->
+  <g transform="translate(250, 50)">
+    <circle cx="0" cy="0" r="25" fill="url(#techGradient1)" opacity="0.2"/>
+    <circle cx="0" cy="0" r="20" fill="url(#techGradient1)" opacity="0.4"/>
+    <text x="0" y="8" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#6366f1" filter="url(#techGlow)">🍃</text>
+    <text x="0" y="45" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#6366f1">MongoDB</text>
+  </g>
+  
+  <!-- TypeScript -->
+  <g transform="translate(100, 150)">
+    <circle cx="0" cy="0" r="25" fill="url(#techGradient2)" opacity="0.2"/>
+    <circle cx="0" cy="0" r="20" fill="url(#techGradient2)" opacity="0.4"/>
+    <text x="0" y="8" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#8b5cf6" filter="url(#techGlow)">🔷</text>
+    <text x="0" y="45" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#8b5cf6">TypeScript</text>
+  </g>
+  
+  <!-- Tailwind CSS -->
+  <g transform="translate(200, 150)">
+    <circle cx="0" cy="0" r="25" fill="url(#techGradient1)" opacity="0.2"/>
+    <circle cx="0" cy="0" r="20" fill="url(#techGradient1)" opacity="0.4"/>
+    <text x="0" y="8" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#6366f1" filter="url(#techGlow)">🎨</text>
+    <text x="0" y="45" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#6366f1">Tailwind</text>
+  </g>
+  
+  <!-- Next.js -->
+  <g transform="translate(300, 150)">
+    <circle cx="0" cy="0" r="25" fill="url(#techGradient2)" opacity="0.2"/>
+    <circle cx="0" cy="0" r="20" fill="url(#techGradient2)" opacity="0.4"/>
+    <text x="0" y="8" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#8b5cf6" filter="url(#techGlow)">⚡</text>
+    <text x="0" y="45" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#8b5cf6">Next.js</text>
+  </g>
+  
+  <!-- Connection Lines -->
+  <g stroke="url(#techGradient1)" stroke-width="2" opacity="0.3">
+    <line x1="75" y1="50" x2="125" y2="50"/>
+    <line x1="175" y1="50" x2="225" y2="50"/>
+    <line x1="125" y1="75" x2="100" y2="125"/>
+    <line x1="225" y1="75" x2="200" y2="125"/>
+    <line x1="100" y1="175" x2="125" y2="175"/>
+    <line x1="200" y1="175" x2="225" y2="175"/>
+  </g>
+  
+  <!-- Floating Particles -->
+  <circle cx="50" cy="200" r="2" fill="#6366f1" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="350" cy="100" r="1.5" fill="#8b5cf6" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="80" cy="250" r="1" fill="#6366f1" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="5s" repeatCount="indefinite"/>
+  </circle>
+</svg> 
