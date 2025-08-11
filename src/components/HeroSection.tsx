@@ -45,6 +45,7 @@ const HeroSection: React.FC = () => {
           </div>
         </div>
 
+
         <div className="flex flex-col justify-center items-center text-center">
           {/* Badge */}
           <div className="inline-block relative mb-6 p-2 animate-float">
