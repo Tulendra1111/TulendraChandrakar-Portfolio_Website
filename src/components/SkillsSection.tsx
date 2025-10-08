@@ -6,8 +6,8 @@ import React from 'react';
 
 const SkillsSection: React.FC = () => {
   const technicalSkills = {
-    languages: ['C++', 'Python', 'DSA', 'MySQL', 'HTML/CSS', 'JavaScript'],
-    frameworks: ['React.js', 'React Router', 'Rest API', 'Node.js', 'Next.js', 'Express.js'],
+    languages: ['C++', 'Python', 'Java', 'DSA', 'MySQL', 'HTML/CSS', 'JavaScript'],
+    frameworks: ['React.js', 'React Router', 'Rest API', 'Node.js', 'Next.js', 'Express.js', 'Swing', 'Spring Boot'],
     tools: ['Git', 'Google Cloud Platform', 'Vercel', 'Netlify'],
     roles: ['Software Developer', 'Mern Stack Developer', 'Front end Developer']
   };
