@@ -7,10 +7,10 @@ import { Folder, ExternalLink, Github } from 'lucide-react';
 const ProjectsSection: React.FC = () => {
   const projects = [
     {
-      title: "Volunteer | Meta stack",
+      title: "CommunityCrew | Mern stack",
       date: "January 2025 - February 2025",
-      demoLink: "https://mern-stack-volunteer.vercel.app/",
-      githubLink: "https://github.com/Tulendra1111/MERN-STACK-VOLUNTEER-WebSite.git",
+      demoLink: "https://communitycrew-volunteer-website-frontend.onrender.com/",
+      githubLink: "https://github.com/Tulendra1111/CommunityCrew_Volunteer_Website.git",
       description: "Designed and implemented a volunteer and donation platform to connect donors, volunteers, and nonprofits.",
       features: [
         "Developed structured workflows for users to donate funds, contribute resources, and register for volunteering.",
